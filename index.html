@@ -14,9 +14,20 @@ ar
 ar-modes="scene-viewer webxr"
 camera-controls
 auto-rotate
-ar-scale="auto"
-ar-placement="floor"
 style="width:100vw;height:100vh;">
+
+<button slot="ar-button"
+style="
+font-size:24px;
+padding:20px;
+border-radius:20px;
+position:absolute;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+">
+ARで見る
+</button>
 </model-viewer>
 
 </body>
